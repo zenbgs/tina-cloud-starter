@@ -1,6 +1,7 @@
 ---
 blocks:
-  - headline: Welcome to the Tina Starter
+  - tagline: bersama asia wujudkan template real time
+    headline: Mari belajar bersama diki untuk menyukseskan inbis
     text: >
       This project is set up to show you the basics of working with Tina. You're
       looking at the landing page, which pulls content from
@@ -8,12 +9,12 @@ blocks:
       all together in pages/\[filename].tsx, all based on a schema defined in
       .tina/schema.ts.
     actions:
-      - label: Get Started
+      - label: Action Label
         type: button
         icon: true
-        link: /posts
-      - label: Read Blog
-        type: link
+        link: /
+      - label: Mulai langsung
+        type: button
         icon: false
         link: /posts
     image:
@@ -48,3 +49,4 @@ blocks:
     color: tint
     _template: features
 ---
+
